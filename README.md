@@ -40,6 +40,7 @@ docker exec -it hive-server /bin/bash
 4. Still inside the docker shell, create Hive database and empty table by running the following commands:
 ```
 cd /employee
+
 hive -f employee_table.hql
 ```
 
@@ -95,6 +96,11 @@ Time taken: 1.799 seconds, Fetched: 1 row(s)
 ```
 We can see that the maximum age in our employees dataset is 50.
 
-10. You can close the Hive shell and Docker shell by pressing `Ctrl` + `d`
+10. You can close the Hive shell by pressing `Ctrl` + `d` . Press `Ctrl` + `d` again to close the Docker shell as well.
 
 11. You can also stop the docker-compose in previous terminal window by pressing `Ctrl` + `c`
+
+12. To clean the docker containers completely, run the following command:
+```
+docker-compose down
+```
