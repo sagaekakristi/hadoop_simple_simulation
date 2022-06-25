@@ -1,6 +1,6 @@
 # Hadoop HDFS & Hive Simulation
 
-A simple simulation for Hadoop HDFS and Hive using Docker. Credits to Hrishi Shirodkar for this awesome simulation (Ref: [Medium Article](https://hshirodkar.medium.com/apache-hive-on-docker-4d7280ac6f8e)).
+A simple simulation for Hadoop HDFS and Hive using Docker.
 
 ## Prerequisites
 
@@ -116,3 +116,7 @@ We can see that the maximum age in our employees dataset is 50.
 ```
 docker-compose down
 ```
+
+## Acknowledgement
+
+Credits and many thanks to Hrishi Shirodkar for the awesome article (Ref: [Medium Article](https://hshirodkar.medium.com/apache-hive-on-docker-4d7280ac6f8e)).
