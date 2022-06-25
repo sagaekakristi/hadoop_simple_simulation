@@ -1,8 +1,6 @@
 # Hadoop HDFS & Hive Simulation
 
-A simple simulation for Hadoop HDFS and Hive using Docker. 
-
-Credits to Hrishi Shirodkar for this awesome simulation (ref: [Medium Article](https://hshirodkar.medium.com/apache-hive-on-docker-4d7280ac6f8e)).
+A simple simulation for Hadoop HDFS and Hive using Docker. Credits to Hrishi Shirodkar for this awesome simulation (Ref: [Medium Article](https://hshirodkar.medium.com/apache-hive-on-docker-4d7280ac6f8e)).
 
 ## Prerequisites
 
@@ -13,6 +11,10 @@ Credits to Hrishi Shirodkar for this awesome simulation (ref: [Medium Article](h
 Tips for Linux OS, you can follow these simple steps to install Docker Compose after installing Docker: https://stackoverflow.com/a/36689427/7708925
 
 3. Install Git. You can use typical git executable or any git client as long as you can clone this repository. You can follow this official documentation: https://git-scm.com/downloads
+
+## Overview
+
+![Alt text](asset/hadoop-stack-case-lab-case.drawio.png?raw=true "Lab Overview")
 
 ## Steps
 
@@ -45,6 +47,8 @@ cd /employee
 
 hive -f employee_table.hql
 ```
+
+The command above will submit the query inside `employee/employee_table.hql` file. The employee_table.hql contain `create database ...` and `create external table ...` expression. It is strongly recommended to check the file content to learn more in detail about the query, table schema, and properties in Hive.
 
 You will receive `OK` logs when no problem occured.
 
