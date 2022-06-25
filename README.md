@@ -1,6 +1,8 @@
 # Hadoop HDFS & Hive Simulation
 
-A simple simulation for Hadoop HDFS and Hive using Docker. Credits to Hrishi Shirodkar for this awesome simulation (Ref: [Medium Article](https://hshirodkar.medium.com/apache-hive-on-docker-4d7280ac6f8e)).
+A simple simulation for Hadoop HDFS and Hive using Docker. 
+
+Credits to Hrishi Shirodkar for this awesome simulation (ref: [Medium Article](https://hshirodkar.medium.com/apache-hive-on-docker-4d7280ac6f8e)).
 
 ## Prerequisites
 
