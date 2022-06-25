@@ -20,7 +20,7 @@ In this simulation, you will:
 - Setup HDFS & Hive simulation environment using Docker
 - Create Hive External table
 - Upload CSV data to HDFS
-- Submit Hive query
+- Submit Hive query and get the result
 
 ## Steps
 
