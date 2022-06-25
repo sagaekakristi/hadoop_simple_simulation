@@ -16,6 +16,12 @@ Tips for Linux OS, you can follow these simple steps to install Docker Compose a
 
 ![Alt text](asset/hadoop-stack-case-lab-case.drawio.png?raw=true "Lab Overview")
 
+In this simulation, you will:
+- Setup HDFS & Hive simulation environment using Docker
+- Create Hive External table
+- Upload CSV data to HDFS
+- Submit Hive query
+
 ## Steps
 
 1. Clone this repository and move to the cloned repository folder.
